@@ -1,0 +1,51 @@
+﻿@model IEnumerable<CertificationList.Models.TodoList>
+
+@{
+    ViewData["Title"] = "List";
+}
+<h1 class="display-4">Certifications List</h1>
+<p class="lead">
+    Here you can manage all your certifications.
+</p>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                #
+            </th>
+            <th>
+                Certifications
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var count = 1;
+        }
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @count
+                </td>
+                <td>
+                    @item.Content
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn-sm btn-outline-info text-decoration-none">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn-sm btn-danger text-decoration-none">Delete</a>
+                </td>
+            </tr>
+            count = count + 1;
+        }
+    </tbody>
+</table>
+<br />
+<hr />
+<br />
+<p style="text-align:center">
+    <a class="btn-success p-2 text-decoration-none" asp-action="Create">Add new Certification</a>
+</p>
