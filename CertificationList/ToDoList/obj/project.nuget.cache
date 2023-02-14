@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZJ11WxVLrTFf6E9zHEThhRkCTtixzwmQ9PYUW0QBh/aDRIaNBpurxpfztOweLC28TbhUGKbfOaqoF0Lhsxg/CQ==",
+  "dgSpecHash": "n7Xcov8GQhxvyIql029godc5guNkwJDS1TgIZDkUzBQiZWYV6B09mfV5pANNpUUf89J60PG8e8jSgLCqtsAs9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationList\\ToDoList\\CertificationList.csproj",
+  "projectFilePath": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationsPortal\\CertificationList\\ToDoList\\CertificationList.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\003VPO744\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\003VPO744\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

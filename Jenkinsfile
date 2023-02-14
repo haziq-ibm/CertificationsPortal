@@ -8,7 +8,7 @@ pipeline {
             steps {
                 echo 'Unit Testing...'
                 echo "Current workspace is ${WORKSPACE}"
-                bat "dotnet test ${WORKSPACE}\\ToDoList\\ToDoList.sln"
+                bat "dotnet test ${WORKSPACE}\\CertificationList\\CertificationList.sln"
             }
         }
         stage('Code Review') {
@@ -18,7 +18,7 @@ pipeline {
                     def scannerHome = tool 'Sonar';
                     withSonarQubeEnv("Sonar") {
                     bat "${tool("Sonar")}/bin/sonar-scanner \
-                    -Dsonar.projectKey=ToDoList \
+                    -Dsonar.projectKey=CertificationList \
                     -Dsonar.sources=. \
                     -Dsonar.css.node=. \
                     -Dsonar.exclusions=**/*.java,**/*.js,target/**/* \
@@ -30,8 +30,8 @@ pipeline {
         stage('Build Stage') {
             steps {
                 echo 'Build Stage...'
-                bat "dotnet clean ${WORKSPACE}\\ToDoList\\ToDoList.sln"
-                bat "dotnet build ${WORKSPACE}\\ToDoList\\ToDoList.sln"
+                bat "dotnet clean ${WORKSPACE}\\CertificationList\\CertificationList.sln"
+                bat "dotnet build ${WORKSPACE}\\CertificationList\\CertificationList.sln"
             }
         }
         stage('Code Deploy') {
@@ -39,7 +39,7 @@ pipeline {
                 //Deploy application on IIS
                 echo 'Code Deployment'
                 bat 'iisreset /stop'
-                bat "dotnet publish ${WORKSPACE}\\ToDoList\\ToDoList.sln -o C:\\inetpub\\wwwroot\\todo"
+                bat "dotnet publish ${WORKSPACE}\\CertificationList\\CertificationList.sln -o C:\\inetpub\\wwwroot\\certifications"
                 bat 'iisreset'
             }
         }
