@@ -31,7 +31,7 @@ public class UnitTest1
     public void WriteRes(string contentString)
     {
         StreamWriter w;
-        string path = Path.GetFullPath(@"C:\Users\003VPO744\Desktop\SimpleProject\ToDoList");
+        string path = Path.GetFullPath(@"C:\Users\003VPO744\Desktop\SimpleProject\CertificationsPortal\CertificationsPortal\CertificationList");
         bool existsFolder = Directory.Exists(path);
         if (!existsFolder)
             Directory.CreateDirectory(path);
