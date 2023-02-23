@@ -19,7 +19,7 @@ pipeline {
                     def scannerHome = tool 'Sonar';
                     withSonarQubeEnv("Sonar") {
                     bat "${tool("Sonar")}/bin/sonar-scanner \
-                    -Dsonar.projectKey=CertificationList \
+                    -Dsonar.projectKey=CertificationsPortal \
                     -Dsonar.sources=. \
                     -Dsonar.css.node=. \
                     -Dsonar.exclusions=**/*.java,**/*.js,target/**/* \
