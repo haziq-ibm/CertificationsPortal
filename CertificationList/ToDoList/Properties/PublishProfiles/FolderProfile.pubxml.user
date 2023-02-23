@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\certifications</_PublishTargetUrl>
+    <History>True|2023-02-22T10:15:35.3853417Z;False|2023-02-22T15:44:06.7429889+05:30;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ToDoContext">
+      <Value>Server=.\SQLEXPRESS%3b Database=ToDoContext%3b Trusted_Connection=True%3b MultipleActiveResultSets=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="CertificationList.Infrastructure.ToDoContext">
+      <Value>Server=.\SQLEXPRESS%3b Database=ToDoContext%3b Trusted_Connection=True%3b MultipleActiveResultSets=True</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

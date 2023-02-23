@@ -2,6 +2,7 @@ pipeline {
     agent any
     environment {
         dotnet = 'C:\\Program Files\\dotnet\\dotnet.exe'
+        sonar_token = credentials('CertificationsPortalToken')
     }
     stages {
          stage('Unit Testing') {
@@ -22,7 +23,8 @@ pipeline {
                     -Dsonar.sources=. \
                     -Dsonar.css.node=. \
                     -Dsonar.exclusions=**/*.java,**/*.js,target/**/* \
-                    -Dsonar.host.url=http://localhost:9000"
+                    -Dsonar.host.url=http://localhost:9000 \
+                    -Dsonar.login=${sonar_token}"
                         }
                     }
             }
