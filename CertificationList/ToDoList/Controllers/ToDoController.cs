@@ -29,6 +29,12 @@ namespace CertificationList.Controllers
             return View(todoList);
         }
 
+        // GET /todo/about
+        public async Task<ActionResult> About()
+        {
+            return View();
+        }
+
         public async Task<int> CountOfItems()
         {
             IQueryable<TodoList> items = from i in context.ToDoList orderby i.Id select i;
