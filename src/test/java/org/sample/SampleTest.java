@@ -18,6 +18,7 @@ public class SampleTest {
         ChromeOptions capability = new ChromeOptions();
 		capability.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 		capability.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS,true);
+		capability.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver(capability);
         driver.get("http://127.0.0.1:80/todo/list");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
