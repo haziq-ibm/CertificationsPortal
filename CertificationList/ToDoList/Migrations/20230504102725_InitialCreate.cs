@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace ToDoList.Migrations
+namespace CertificationList.Migrations
 {
     public partial class InitialCreate : Migration
     {

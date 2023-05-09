@@ -11,7 +11,7 @@ GO
 BEGIN TRANSACTION;
 GO
 
-IF NOT EXISTS(SELECT * FROM [__EFMigrationsHistory] WHERE [MigrationId] = N'20221222134719_InitialCreate')
+IF NOT EXISTS(SELECT * FROM [__EFMigrationsHistory] WHERE [MigrationId] = N'20230504102725_InitialCreate')
 BEGIN
     CREATE TABLE [ToDoList] (
         [Id] int NOT NULL IDENTITY,
@@ -21,10 +21,10 @@ BEGIN
 END;
 GO
 
-IF NOT EXISTS(SELECT * FROM [__EFMigrationsHistory] WHERE [MigrationId] = N'20221222134719_InitialCreate')
+IF NOT EXISTS(SELECT * FROM [__EFMigrationsHistory] WHERE [MigrationId] = N'20230504102725_InitialCreate')
 BEGIN
     INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
-    VALUES (N'20221222134719_InitialCreate', N'6.0.10');
+    VALUES (N'20230504102725_InitialCreate', N'6.0.10');
 END;
 GO
 

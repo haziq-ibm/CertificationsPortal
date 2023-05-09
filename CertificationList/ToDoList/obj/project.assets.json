@@ -10022,11 +10022,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationsPortal\\CertificationList\\ToDoList\\CertificationList.csproj",
+      "projectUniqueName": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationList\\ToDoList\\CertificationList.csproj",
       "projectName": "CertificationList",
-      "projectPath": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationsPortal\\CertificationList\\ToDoList\\CertificationList.csproj",
+      "projectPath": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationList\\ToDoList\\CertificationList.csproj",
       "packagesPath": "C:\\Users\\003VPO744\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationsPortal\\CertificationList\\ToDoList\\obj\\",
+      "outputPath": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationList\\ToDoList\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\003VPO744\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10089,7 +10089,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

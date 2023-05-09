@@ -8,10 +8,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace ToDoList.Migrations
+namespace CertificationList.Migrations
 {
     [DbContext(typeof(ToDoContext))]
-    [Migration("20221222134719_InitialCreate")]
+    [Migration("20230504102725_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,7 +23,7 @@ namespace ToDoList.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("ToDoList.Models.TodoList", b =>
+            modelBuilder.Entity("CertificationList.Models.TodoList", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationsPortal\\CertificationList\\TestDemo.Tests\\TestDemo.Tests.csproj": {}
+    "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationList\\TestDemo.Tests\\TestDemo.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationsPortal\\CertificationList\\TestDemo.Tests\\TestDemo.Tests.csproj": {
+    "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationList\\TestDemo.Tests\\TestDemo.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationsPortal\\CertificationList\\TestDemo.Tests\\TestDemo.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationList\\TestDemo.Tests\\TestDemo.Tests.csproj",
         "projectName": "TestDemo.Tests",
-        "projectPath": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationsPortal\\CertificationList\\TestDemo.Tests\\TestDemo.Tests.csproj",
+        "projectPath": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationList\\TestDemo.Tests\\TestDemo.Tests.csproj",
         "packagesPath": "C:\\Users\\003VPO744\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationsPortal\\CertificationList\\TestDemo.Tests\\obj\\",
+        "outputPath": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationList\\TestDemo.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\003VPO744\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationsPortal\\CertificationList\\ToDoList\\CertificationList.csproj": {
-                "projectPath": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationsPortal\\CertificationList\\ToDoList\\CertificationList.csproj"
+              "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationList\\ToDoList\\CertificationList.csproj": {
+                "projectPath": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationList\\ToDoList\\CertificationList.csproj"
               }
             }
           }
@@ -81,18 +81,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationsPortal\\CertificationList\\ToDoList\\CertificationList.csproj": {
+    "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationList\\ToDoList\\CertificationList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationsPortal\\CertificationList\\ToDoList\\CertificationList.csproj",
+        "projectUniqueName": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationList\\ToDoList\\CertificationList.csproj",
         "projectName": "CertificationList",
-        "projectPath": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationsPortal\\CertificationList\\ToDoList\\CertificationList.csproj",
+        "projectPath": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationList\\ToDoList\\CertificationList.csproj",
         "packagesPath": "C:\\Users\\003VPO744\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationsPortal\\CertificationList\\ToDoList\\obj\\",
+        "outputPath": "C:\\Users\\003VPO744\\Desktop\\SimpleProject\\CertificationsPortal\\CertificationList\\ToDoList\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\003VPO744\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -155,7 +155,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
